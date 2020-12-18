@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Names Website</title>
+    <link href="./css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h1>akan names website</h1><br>
+                <p>Akan name website is a web application that takes a user's birthday and calculates
+                    the day of the week they were born and then depending on their gender outputs their Akan Names.</p>
+            </div>
+            <form>
+                <p><strong> Fill the form below and click on submit to find your Akan names:</strong></p>
+                <div class="form-group">
+                    <label for="date">date of birth</label>
+                    <input type="date" class="form-control" id="ydate">
+                </div>
+                <div class="form-group">
+                    <label for="gender">gender</label>
+                    <select class="form-control" id="gender" required>
+                        <option value=""></option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="akanName()">Submit</button>
+            </form>
+
+
+
+
+            <div class="row-cols-md-8">
+                <h2>About:</h2>
+                <p>Akan name website is a web application that takes a user's birthday and calculates the day of the
+                    week they were born and then depending on their gender outputs their Akan Name.
+                    Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first
+                    name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian
+                    day names.
+                </p>
+                <table style="width:50%">
+                    <tr>
+                        <th>week-day</th>
+                        <th>male</th>
+                        <th>female</th>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Kwasi</td>
+                        <td> Akosua</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Kwadwo</td>
+                        <td> Adwoa</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Kwabena</td>
+                        <td> Abenaa</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td> Kwaku</td>
+                        <td>Akua</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Yaw</td>
+                        <td>Yaa</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Kofi</td>
+                        <td>Afua</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Kwame</td>
+                        <td>Ama</td>
+                    </tr>
+                </table><br>
+                
+            </div>
+            <div class="contacts">
+                <div id="contact">
+                    <h3>Contacts</h3>
+                    <P>Phone: <a href="mobile:0708814101">0708814101</a></P>
+                    <P>Email: <a href="email:oduor5742@gmail.com">oduor5742@gmail.com</a></P>
+                </div>
+                <div id="contact">
+                    <a href="https://twitter.com/"><img src=" images/t.jpg" alt="Twiter" height=" 50"
+                        width="50"></a>
+                    <a href="https://instagram.com/"><img src=" images/insta.jpeg" alt="instagram" height=" 50"
+                            width="50"></a>
+                     <a href="https://facebook.com/"><img src=" images/f.jpg" alt="Facebook" height=" 50"
+                            width="50"></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2020 Nicholas Oduor  || All Rights Reserved   ||Nicholas-akan-name-website
+            </P>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>

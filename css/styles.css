@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(88, 92, 146);
+
+}
+
+
+table {
+    padding: 10px;
+    border: 1px solid rgb(235, 66, 66);
+    border-collapse: collapse;
+}
+
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(253, 7, 7);
+}
+
+.jumbotron {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    background-color: rgb(69, 214, 219);
+
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: rgb(236, 236, 100);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(48, 74, 224);
+    }
+}
